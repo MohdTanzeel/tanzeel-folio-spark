@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
@@ -34,6 +34,11 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       href: "https://linkedin.com/in/mohd-tanzeel-860899221",
+    },
+    {
+      icon: Twitter,
+      label: "Twitter",
+      href: "https://twitter.com/yourusername",
     },
   ];
 
